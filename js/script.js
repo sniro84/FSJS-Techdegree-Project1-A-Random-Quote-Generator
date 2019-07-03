@@ -1,6 +1,8 @@
 /******************************************
 Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
+Author - Snir Holland
+Date - 04/07/2019
 ******************************************/
 
 // Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing
@@ -90,7 +92,12 @@ console.log(quotes);
    - Cse the random number to `return` a random quote object from the `quotes` array.
 ***/
 
-
+// This function returns a random quote from the quote collection
+function getRandomQuote()
+{
+   let randNumber = Math.floor(Math.random() * quotes.length);
+   return quotes[randNumber];
+}
 
 
 /***
