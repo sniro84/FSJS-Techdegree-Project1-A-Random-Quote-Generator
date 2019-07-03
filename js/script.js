@@ -15,6 +15,72 @@ project 1 - A Random Quote Generator
   Use console.log() to log your array of quotes to the console.
 ***/
 
+// array of quotes
+let quotes = [ ];
+
+// famous quotes
+let quote1 = 
+{
+   quote:   "Strive not to be a success, but rather to be of value." ,
+   source:  "Albert Einstein"
+};
+
+let quote2 = 
+{
+  quote:   "The journey of a thousand miles begins with one step." ,
+  source:  "Lao Tzu"
+};
+
+let quote3 = 
+{
+  quote:      "This is the beginning of a beautiful friendship." ,
+  source:     "Casablanca" ,
+  citation:   "movie" ,
+  year: 1947
+};
+
+let quote4 = 
+{
+  quote:      "Always remember that you are absolutely unique. Just like everyone else" ,
+  source:     "Margaret Mead" 
+};
+
+let quote5 = 
+{
+  quote:      "You only live once, but if you do it right, once is enough." ,
+  source:     "Mae West" 
+};
+
+let quote6 = 
+{
+  quote:      "Love the life you live. Live the life you love" ,
+  source:     "Bob Marley"       
+};
+
+let quote7 = 
+{
+  quote:      "Live life to the fullest, and focus on the positive." ,
+  source:     "Matt Cameron"
+};
+
+let quote8 = 
+{
+  quote:      "There's no place like home." ,
+  source:     "The Wizard of Oz" ,
+  citation:   "book" ,
+  year: 1900
+}
+
+// pushing the quotes to the array
+quotes.push(quote1, quote2, quote3, quote4, quote5, quote6, quote7, quote8);
+
+// logging quotes array to the console
+console.log(quotes);
+
+
+
+
+
 
 
 
