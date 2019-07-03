@@ -69,7 +69,7 @@ let quote8 =
   source:     "The Wizard of Oz" ,
   citation:   "book" ,
   year: 1900
-}
+};
 
 // pushing the quotes to the array
 quotes.push(quote1, quote2, quote3, quote4, quote5, quote6, quote7, quote8);
