@@ -5,17 +5,11 @@ Name: Snir Holland
 Date: 04/07/2019
 ******************************************/
 
-// a container to store the collection of quotes
-let quotes = [ ];
-
-// a container to store different colors
-let colors = [ ];
-
 // a timer that generates a new quote every few seconds
-let interval = setInterval(printQuote,20000);
+const interval = setInterval(printQuote,20000);
 
-// famous quotes
-quotes = [
+// a container of famous quotes
+const quotes = [
 {
    quote:     "Strive not to be a success, but rather to be of value." ,
    source:    "Albert Einstein",
@@ -76,8 +70,8 @@ quotes = [
 }  
 ];
 
-// colors 
-colors = ["#ff00bf","#0099cc","#b300b3","#ff3300","#00004d","#33cc33","#ff0000","#b3b300","#009999"];
+// a container of colors 
+const colors = ["#ff00bf","#0099cc","#b300b3","#ff3300","#00004d","#33cc33","#ff0000","#b3b300","#009999"];
 
 // This function returns a random quote from the quote collection.
 function getRandomQuote()
