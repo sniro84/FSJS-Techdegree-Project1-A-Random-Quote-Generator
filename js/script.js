@@ -80,8 +80,7 @@ function getRandomQuote()
    return quotes[randNumber];
 }
 
-/* This function generates a random quote and prints it to the screen
-whenever the user clicks the "Show another quote" button. */  
+// This function generates a random quote and prints it to the screen
 function printQuote()
 {
   let randomQuote = getRandomQuote();
