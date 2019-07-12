@@ -1,6 +1,7 @@
-# TechdegreeProject1-A-Random-Quote-Generator
+Project #1
 A Random Quote Generator
+------------------------
 
-Description : an app that displays random famous quotes each time a button is clicked.
+Description: An app that displays random famous quotes each time a button is clicked.
 
-Topics : JavaScript fundamentals. 
+Topics: JavaScript fundamentals. 
