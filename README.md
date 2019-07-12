@@ -1,6 +1,5 @@
-Project #1
-A Random Quote Generator
-------------------------
+Project #1 - A Random Quote Generator
+-------------------------------------
 
 Description: An app that displays random famous quotes each time a button is clicked.
 
