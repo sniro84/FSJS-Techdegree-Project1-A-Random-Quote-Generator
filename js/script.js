@@ -1,6 +1,6 @@
 /******************************************
 Treehouse FSJS Techdegree:
-project 1 - A Random Quote Generator
+Project 1 - A Random Quote Generator
 Name: Snir Holland
 Date: 04/07/2019
 ******************************************/
